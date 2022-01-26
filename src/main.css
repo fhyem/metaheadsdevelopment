@@ -45,12 +45,12 @@ body {
   box-sizing: border-box;
 }
 
- /**
+/**
 MetaHead footer
 */
 .footer {
   display: flex;
-  background: #242E40;
+  background: #242e40;
   justify-content: space-between;
   border-top: 1px solid #505761;
   align-items: center;
@@ -62,8 +62,8 @@ MetaHead footer
   padding-left: 1em;
 }
 
-.footer-heading{
-  color: #CDD0CD;
+.footer-heading {
+  color: #cdd0cd;
 }
 
 .footer-right {
@@ -133,5 +133,33 @@ MetaHead footer
   .nft-gif {
     width: 100%;
     height: 100%;
+  }
+
+  /* Faq css */
+  .content-faq {
+    background-image: linear-gradient(to top, #303d53, #625761);
+    height: 100vh;
+    padding: 1px 150px;
+  }
+
+  .faq-heading h1 {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 30px;
+  }
+
+  .faq-content {
+    font-size: 14px;
+    color: #b3bebe;
+  }
+
+  .faq-content p:nth-child(odd) {
+    margin-top: 15px;
+    margin-bottom: 3px;
+  }
+
+  .faq-content p:nth-child(even) {
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 }
