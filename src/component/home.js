@@ -54,7 +54,6 @@ class Home extends React.Component {
             <p>FAQs</p>
           </div>
         </div>
-        <div className='footer'>Footer</div>
         <div className='content'>Content</div>
         <div className='footer'>
           <div className='footer-left'>
