@@ -97,20 +97,39 @@ class Home extends React.Component {
           </div>
           <div className='seperator'></div>
           <div className='roadmap' id='roadmap'>
-          <span className='roadmap-heading'>ROADMAP</span>
-          <div className='content-roadmap'>
-          <div className='roadmap-left'>
-            <p>End January 2022 – First version of our site, all the Social Media pages will be launched, try to get whitelisted (join our Discord)
-              to be able to get your Metahead in our Private Pre-sale reserved only to few members (max buy per wallet 10 Metahead)</p>
-            <p>Early Febuarary 2022 – Private Sale launch for whitelisted members who have reserved their spot (price 15 FTM per Metahead)</p>
-            <p>Mid Febuarary 2022 – Public Sale opened to everyone but you will have to be fast because it will work on a FCFS basis! (price 15 FTM and max buy 10 Metahead per wallet)</p>
-           </div>
-           <div className='roadmap-right'>
-           <p>End March 2022 – Metahead Crypto launch where our NFT holders will get their token allocation</p>
-           <p>End April 2022 – Launch of our clothing brand Metahead (you want to own a NFT Metahead before the ecommerce launches, trust us!)</p>
-           </div>
-          </div>
-           
+            <span className='roadmap-heading'>ROADMAP</span>
+            <div className='content-roadmap'>
+              <div className='roadmap-left'>
+                <p>
+                  End January 2022 – First version of our site, all the Social
+                  Media pages will be launched, try to get whitelisted (join our
+                  Discord) to be able to get your Metahead in our Private
+                  Pre-sale reserved only to few members (max buy per wallet 10
+                  Metahead)
+                </p>
+                <p>
+                  Early Febuarary 2022 – Private Sale launch for whitelisted
+                  members who have reserved their spot (price 15 FTM per
+                  Metahead)
+                </p>
+                <p>
+                  Mid Febuarary 2022 – Public Sale opened to everyone but you
+                  will have to be fast because it will work on a FCFS basis!
+                  (price 15 FTM and max buy 10 Metahead per wallet)
+                </p>
+              </div>
+              <div className='roadmap-right'>
+                <p>
+                  End March 2022 – Metahead Crypto launch where our NFT holders
+                  will get their token allocation
+                </p>
+                <p>
+                  End April 2022 – Launch of our clothing brand Metahead (you
+                  want to own a NFT Metahead before the ecommerce launches,
+                  trust us!)
+                </p>
+              </div>
+            </div>
           </div>
           <div className='content-faq' id='faq'>
             <div className='faq-heading'>

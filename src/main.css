@@ -1,8 +1,8 @@
-@import url("https://fonts.cdnfonts.com/css/modern-typewriter");
+@import url('https://fonts.cdnfonts.com/css/modern-typewriter');
 body {
   margin: 0;
   padding: 0;
-  font-family: "Modern Typewriter", sans-serif;
+  font-family: 'Modern Typewriter', sans-serif;
 }
 
 .header {
@@ -68,7 +68,7 @@ body {
 .roadmap-heading {
   color: #cdd0cd;
 }
-p {
+.content-roadmap p {
   text-align: center;
   width: 75%;
   color: #cdd0cd;
@@ -157,7 +157,7 @@ MetaHead footer
   }
 
   .left-div-heading-image {
-    width: 250px;
+    width: 30em;
   }
 
   .nft-gif {
@@ -165,12 +165,11 @@ MetaHead footer
     height: 100%;
   }
 
-
   /* Faq css */
   .content-faq {
     background-image: linear-gradient(to top, #303d53, #625761);
-    height: 100vh;
-    padding: 1px 150px;
+    /* height: 100vh; */
+    padding: 50px 150px;
   }
 
   .faq-heading h1 {
@@ -180,7 +179,7 @@ MetaHead footer
   }
 
   .faq-content {
-    font-size: 14px;
+    font-size: 20px;
     color: #b3bebe;
   }
 
@@ -193,9 +192,9 @@ MetaHead footer
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  
+
   /*Humayon roadmap css */
-   /*
+  /*
   Roadmap
   */
 
@@ -226,7 +225,7 @@ MetaHead footer
     margin-left: 7em;
   }
 
-  p {
+  .content-roadmap p {
     text-align: center;
     width: 75%;
     color: #cdd0cd;
@@ -241,6 +240,7 @@ MetaHead footer
     background-color: #242e40;
     border-top: 1px solid #6d6d6e;
     border-bottom: 1px solid #6d6d6e;
+  }
 }
 
 @media only screen and (max-width: 700px) {
