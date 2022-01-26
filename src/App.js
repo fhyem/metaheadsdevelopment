@@ -1,14 +1,10 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-
-import FlappyPage from './Component/FlappyPage';
+import Home from './component/home';
 class App extends React.Component {
   render() {
     return (
       <>
-        <BrowserRouter>
-          <FlappyPage />
-        </BrowserRouter>
+        <Home />
       </>
     );
   }

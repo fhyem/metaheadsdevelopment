@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
-  "SCAN_LINK": "https://kovan.etherscan.io/address/0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
+  "CONTRACT_ADDRESS": "",
+  "SCAN_LINK": "https://testnet.ftmscan.com/address/0xc457d0e885a878f2f8ae4b2ad9d850db046ce818",
   "NETWORK": {
-    "NAME": "Kovan Test Network",
+    "NAME": "Fantom Testnet",
     "SYMBOL": "FTM",
-    "ID": 42
+    "ID": 4002
   },
-  "NFT_NAME": "Florence.gg Tickets",
-  "SYMBOL": "Flappy Bird",
-  "MAX_SUPPLY": 3200,
+  "NFT_NAME": "METAHEADS",
+  "SYMBOL": "Metaheads",
+  "MAX_SUPPLY": 8888,
   "WEI_COST": 1000000000000000,
   "DISPLAY_COST": 10,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "OpenSea",
+  "MARKETPLACE": "Koyodo",
   "MARKETPLACE_LINK": "https://opensea.io",
   "SHOW_BACKGROUND": true
 }

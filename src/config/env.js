@@ -1,20 +1,20 @@
 const ENV = {
   development: {
-    CONTRACT_ADDRESS: '0x3FD78592C3257848a56aA9b0Ba235eD732E49763',
+    CONTRACT_ADDRESS: '',
     SCAN_LINK:
-      'https://kovan.etherscan.io/address/0x3fd78592c3257848a56aa9b0ba235ed732e49763',
+      'https://testnet.ftmscan.com/address/0xc457d0e885a878f2f8ae4b2ad9d850db046ce818',
     NETWORK: {
-      NAME: 'Kovan Test Network',
-      SYMBOL: 'ETH',
-      ID: 42,
+      NAME: 'Fantom Testnet',
+      SYMBOL: 'FTM',
+      ID: 4002,
     },
-    NFT_NAME: 'Florence.gg Tickets',
-    SYMBOL: 'Florence',
+    NFT_NAME: 'METAHEADS',
+    SYMBOL: ' Metaheads',
     MAX_SUPPLY: 10000,
     WEI_COST: 10000000000000000, // 0.01 eth
     DISPLAY_COST: 0.01,
     GAS_LIMIT: 285000,
-    MARKETPLACE: 'OpenSea',
+    MARKETPLACE: 'Kyodo',
     MARKETPLACE_LINK: 'https://opensea.io',
     SHOW_BACKGROUND: true,
   },
