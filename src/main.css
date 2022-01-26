@@ -150,6 +150,14 @@ background-color: white;
   border: none;
 }
 
+/**
+MetaHead footer
+*/
+
+.footer{
+  background: red;
+}
+
 @media only screen and (min-width: 700px) {
   .InnerContainer {
   display: flex;
