@@ -13,7 +13,7 @@ class Home extends React.Component {
         <div className='content'>Content</div>
         <div className='footer'>
           <div className='footer-left'>
-
+            <span className='footer-heading'>Metahead &copy; 2022 </span>
           </div>
           <div className='footer-right'>
             <a><img src={instagram}/></a>
