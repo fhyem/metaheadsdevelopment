@@ -97,7 +97,7 @@ class Home extends React.Component {
             </div>
           </div>
           <div className='seperator'></div>
-          <div className='roadmap'>
+          <div className='roadmap' id='roadmap'>
           <span className='roadmap-heading'>ROADMAP</span>
           <div className='content-roadmap'>
           <div className='roadmap-left'>
