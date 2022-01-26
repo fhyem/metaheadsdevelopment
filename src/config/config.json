@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
-  "SCAN_LINK": "https://kovan.etherscan.io/address/0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
+  "CONTRACT_ADDRESS": "0x9c5C0E7Ec4B2d727f5c431cdbC2C28aDDfAD5Bdd",
+  "SCAN_LINK": "https://testnet.ftmscan.com/address/0x9c5c0e7ec4b2d727f5c431cdbc2c28addfad5bdd",
   "NETWORK": {
-    "NAME": "Kovan Test Network",
+    "NAME": "Fantom Testnet",
     "SYMBOL": "FTM",
-    "ID": 42
+    "ID": 4002
   },
-  "NFT_NAME": "Florence.gg Tickets",
-  "SYMBOL": "Flappy Bird",
-  "MAX_SUPPLY": 3200,
+  "NFT_NAME": "Meta Heads ",
+  "SYMBOL": "MetaHead",
+  "MAX_SUPPLY": 8888,
   "WEI_COST": 1000000000000000,
   "DISPLAY_COST": 10,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "OpenSea",
-  "MARKETPLACE_LINK": "https://opensea.io",
+  "MARKETPLACE": "Paint Swap",
+  "MARKETPLACE_LINK": "https://https://paintswap.finance/.io",
   "SHOW_BACKGROUND": true
 }

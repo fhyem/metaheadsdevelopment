@@ -6,7 +6,7 @@ const ENV = {
     NETWORK: {
       NAME: 'Fantom Testnet',
       SYMBOL: 'FTM',
-      ID: 0xfa2,
+      ID: 4002,
     },
     NFT_NAME: 'Meta Heads',
     SYMBOL: 'MetaHead',
