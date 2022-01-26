@@ -26,8 +26,8 @@ class Home extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to='mint' spy={true} smooth={true}>
-                  MINT
+                <Link to='about' spy={true} smooth={true}>
+                  About
                 </Link>
               </li>
               <li>
@@ -67,16 +67,15 @@ class Home extends React.Component {
             className='content-first-page'
             style={{
               backgroundImage: `url(${backgroundImg})`,
-            }}
-          >
+            }}>
             {/* <img src={background} /> */}
           </div>
           <div
             className='content-intro'
+            id='about'
             style={{
               backgroundColor: '#2d4762',
-            }}
-          >
+            }}>
             <div className='left-div'>
               <h4 className='left-heading'>
                 Don't blame this little blazemaker
@@ -99,7 +98,7 @@ class Home extends React.Component {
           <div className='content-roadmap'>
             <p>Roadmap to MetaHeads</p>
           </div>
-          <div className='content-faq'>
+          <div className='content-faq' id='faq'>
             <div className='faq-heading'>
               <h1>FAQs</h1>
             </div>

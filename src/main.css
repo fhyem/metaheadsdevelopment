@@ -89,7 +89,7 @@ MetaHead footer
   .left-heading {
     text-align: center;
     font-size: 23px;
-    margin: 0;
+    margin-top: 0;
     color: #b3bebe;
   }
 
@@ -102,8 +102,9 @@ MetaHead footer
     height: 250px;
     text-align: justify;
     font-size: 22px;
-    margin: 0;
+    /* margin: 0; */
     color: #b3bebe;
+    margin-top: 100px;
   }
 
   .left-div {
