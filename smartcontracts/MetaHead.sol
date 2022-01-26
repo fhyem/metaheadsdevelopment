@@ -1638,7 +1638,7 @@ library Counters {
 
 pragma solidity ^0.8.0;
 
-contract FlorenceGG is
+contract MetaHeads is
     ERC721,
     ERC721Enumerable,
     ERC721URIStorage,
@@ -1657,7 +1657,7 @@ contract FlorenceGG is
     address public dev;
     string public baseURI;
 
-    constructor(address _dev) ERC721("Florence", "FlorenceGGTickets") {
+    constructor(address _dev) ERC721("MetaHeads", "MetaHeadsNft") {
         dev = _dev;
         _pause();
         startTime = block.timestamp;
@@ -1706,7 +1706,7 @@ contract FlorenceGG is
     }
 
     function internalMint(address to) internal {
-        require(totalSupply() < maxSupply, "All tickets to Florence are sold");
+        require(totalSupply() < maxSupply, "All MetaHeads are sold!!");
         _safeMint(to, _tokenIdCounter.current());
         _tokenIdCounter.increment();
     }
@@ -1715,7 +1715,7 @@ contract FlorenceGG is
         internalMint(to);
     }
 
-    function mintFlorence(uint256 amount) public payable {
+    function mintMetaHead(uint256 amount) public payable {
         require(msg.value >= price * amount, "Not enough was paid");
         require(amount <= maxBuy, "Mint amount over limit");
         require(block.timestamp >= startTime, "Minting not started");
