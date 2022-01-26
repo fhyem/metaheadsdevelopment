@@ -1,8 +1,8 @@
-@import url('https://fonts.cdnfonts.com/css/modern-typewriter');
+@import url("https://fonts.cdnfonts.com/css/modern-typewriter");
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Modern Typewriter', sans-serif;
+  font-family: "Modern Typewriter", sans-serif;
 }
 
 .header {
@@ -45,12 +45,45 @@ body {
   box-sizing: border-box;
 }
 
- /**
+/*
+  Roadmap
+  */
+
+.roadmap {
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    rgba(52, 63, 84, 1) 0%,
+    rgba(105, 98, 104, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.content-roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.roadmap-heading {
+  color: #cdd0cd;
+}
+p {
+  text-align: center;
+  width: 75%;
+  color: #cdd0cd;
+}
+
+.seperator {
+  display: none;
+}
+
+/**
 MetaHead footer
 */
 .footer {
   display: flex;
-  background: #242E40;
+  background: #242e40;
   justify-content: space-between;
   border-top: 1px solid #505761;
   align-items: center;
@@ -62,8 +95,8 @@ MetaHead footer
   padding-left: 1em;
 }
 
-.footer-heading{
-  color: #CDD0CD;
+.footer-heading {
+  color: #cdd0cd;
 }
 
 .footer-right {
@@ -133,5 +166,53 @@ MetaHead footer
   .nft-gif {
     width: 100%;
     height: 100%;
+  }
+
+  /*
+  Roadmap
+  */
+
+  .roadmap {
+    height: 100vh;
+    background: linear-gradient(
+      180deg,
+      rgba(52, 63, 84, 1) 0%,
+      rgba(105, 98, 104, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    padding-top: 5em;
+  }
+  .content-roadmap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .roadmap-heading {
+    color: #cdd0cd;
+    margin-left: 3.5em;
+    font-size: 2em;
+  }
+
+  .roadmap-left {
+    margin-left: 7em;
+  }
+
+  p {
+    text-align: center;
+    width: 75%;
+    color: #cdd0cd;
+    margin-bottom: 4em;
+    font-size: 20px;
+  }
+
+  .seperator {
+    display: block;
+    width: 100%;
+    height: 3em;
+    background-color: #242e40;
+    border-top: 1px solid #6d6d6e;
+    border-bottom: 1px solid #6d6d6e;
   }
 }
