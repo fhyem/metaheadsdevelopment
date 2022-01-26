@@ -3,6 +3,45 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Modern Typewriter', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 42px;
+  justify-content: space-around;
+  background-color: #22242a;
+  color: white;
+  height: 15vh;
+}
+.logo img {
+  width: 245px;
+}
+
+.list ul {
+  display: flex;
+  column-gap: 40px;
+}
+.list ul li {
+  list-style: none;
+}
+
+.icon {
+}
+
+.icon ul {
+  display: flex;
+  column-gap: 31px;
+  align-items: center;
+  font-weight: bolder;
+}
+.icon li {
+  list-style: none;
+}
+.icon img {
+  width: 43px;
+}
+.icon a {
   box-sizing: border-box;
 }
 
