@@ -2,14 +2,12 @@ import React from 'react';
 
 import logo from '../images/logo.png';
 import { Link } from 'react-scroll';
-
 import backgroundImg from '../images/background.png';
-import heading from '../images/heading.png';
 import nftGif from '../images/nftGif.gif';
-import '../main.css'
-import instagram from '../images/insta.png'
-import twitter from '../images/twitter.png'
-import discord from '../images/discord.png'
+import '../main.css';
+import instagram from '../images/insta.png';
+import twitter from '../images/twitter.png';
+import discord from '../images/discord.png';
 // import Minting from './minting';
 class Home extends React.Component {
   state = {};
@@ -69,20 +67,22 @@ class Home extends React.Component {
             className='content-first-page'
             style={{
               backgroundImage: `url(${backgroundImg})`,
-            }}>
+            }}
+          >
             {/* <img src={background} /> */}
           </div>
           <div
             className='content-intro'
             style={{
               backgroundColor: '#2d4762',
-            }}>
+            }}
+          >
             <div className='left-div'>
               <h4 className='left-heading'>
                 Don't blame this little blazemaker
               </h4>
               <div className='content-div-heading'>
-                <img className='left-div-heading-image' src={heading} />
+                <img className='left-div-heading-image' src={logo} />
               </div>
               <h5 className='left-div-info'>
                 A rebellious imp who has the ability to shapeshift and the
@@ -108,9 +108,15 @@ class Home extends React.Component {
             <span className='footer-heading'>Metahead &copy; 2022 </span>
           </div>
           <div className='footer-right'>
-            <a><img src={instagram}/></a>
-            <a><img src={twitter}/></a>
-            <a><img src={discord}/></a>
+            <a>
+              <img src={instagram} />
+            </a>
+            <a>
+              <img src={twitter} />
+            </a>
+            <a>
+              <img src={discord} />
+            </a>
           </div>
         </div>
       </div>

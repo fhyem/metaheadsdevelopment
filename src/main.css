@@ -8,14 +8,13 @@ body {
 .header {
   display: flex;
   align-items: center;
-  column-gap: 42px;
   justify-content: space-around;
   background-color: #22242a;
   color: white;
   height: 15vh;
 }
 .logo img {
-  width: 245px;
+  width: 200px;
 }
 
 .list ul {
@@ -24,14 +23,14 @@ body {
 }
 .list ul li {
   list-style: none;
+  cursor: pointer;
 }
-
-.icon {
+.list ul li:hover {
 }
 
 .icon ul {
   display: flex;
-  column-gap: 31px;
+  column-gap: 20px;
   align-items: center;
   font-weight: bolder;
 }
@@ -39,18 +38,19 @@ body {
   list-style: none;
 }
 .icon img {
-  width: 43px;
+  width: 2em;
+  cursor: pointer;
 }
 .icon a {
   box-sizing: border-box;
 }
 
- /**
+/**
 MetaHead footer
 */
 .footer {
   display: flex;
-  background: #242E40;
+  background: #242e40;
   justify-content: space-between;
   border-top: 1px solid #505761;
   align-items: center;
@@ -62,8 +62,8 @@ MetaHead footer
   padding-left: 1em;
 }
 
-.footer-heading{
-  color: #CDD0CD;
+.footer-heading {
+  color: #cdd0cd;
 }
 
 .footer-right {
@@ -80,14 +80,10 @@ MetaHead footer
 @media only screen and (min-width: 700px) {
   /* Content first screen css */
   .content-first-page {
-    height: 90vh;
+    height: 85vh;
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-  }
-
-  .content-first-page p {
-    margin-top: 0;
   }
 
   .left-heading {
@@ -133,5 +129,46 @@ MetaHead footer
   .nft-gif {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .icon {
+    display: none;
+  }
+  .logo img {
+    width: 92px;
+  }
+  .header {
+    column-gap: 0px;
+  }
+  .list ul {
+    column-gap: 14px;
+  }
+
+  /* lahori css */
+  .left-heading {
+    text-align: center;
+  }
+
+  .content-div-heading {
+    display: flex;
+    justify-content: center;
+  }
+
+  .left-div-heading-image {
+    width: 250px;
+  }
+  .right-div {
+    display: flex;
+  }
+  .left-div {
+    padding: 20px;
+  }
+  .nft-gif {
+    width: 82%;
+    margin: auto;
+    /* align-items: center; */
+    padding: 20px;
   }
 }
