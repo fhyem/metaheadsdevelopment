@@ -8,7 +8,9 @@ const Minting = (props) => {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click 'MINT' to mint a Flappy Bird`);
+  const [feedback, setFeedback] = useState(
+    `Click 'MINT' to mint a Flappy Bird`
+  );
   const secondsToRelease = 1633896000000 - new Date().getTime();
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
@@ -120,7 +122,7 @@ const Minting = (props) => {
         </>
       ) : (
         <>
-          <p className="costClass">
+          <p className='costClass'>
             1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{' '}
             {/* 1 Ticket costs {CONFIG.DISPLAY_COST} */}
             {CONFIG.NETWORK.SYMBOL}.
@@ -155,17 +157,16 @@ const Minting = (props) => {
               <div>
                 {blockchain.account === '' ||
                 blockchain.smartContract === null ? (
-                  <div className="connectButton">
+                  <div className='connectButton'>
                     <p>Connect to the {CONFIG.NETWORK.NAME} network</p>
-                  
+
                     <button
-                      className="ConnectBtn"
+                      className='ConnectBtn'
                       onClick={(e) => {
                         e.preventDefault();
                         dispatch(connect());
                         getData();
-                      }}
-                    >
+                      }}>
                       CONNECT
                     </button>
                     {blockchain.errorMsg !== '' ? (
@@ -176,54 +177,50 @@ const Minting = (props) => {
                     ) : null}
                   </div>
                 ) : (
-                  <div className="abc">
-                    <p
+                  <div className='abc'>
+                    <div
                       style={{
                         textAlign: 'center',
                         color: 'var(--accent-text)',
-                      }}
-                    >
-                      <div dangerouslySetInnerHTML={{ __html: feedback }}></div>
-                    </p>
-                    
-                    <div className="counterBtn">
+                      }}>
+                      <p dangerouslySetInnerHTML={{ __html: feedback }}></p>
+                    </div>
+
+                    <div className='counterBtn'>
                       <button
-                        className="minusButtonSize"
+                        className='minusButtonSize'
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
                           decrementMintAmount();
-                        }}
-                      >
+                        }}>
                         -
                       </button>
 
-                      <p className="NumbersField">
-                        <span>{mintAmount}
-                        </span></p>
+                      <p className='NumbersField'>
+                        <span>{mintAmount}</span>
+                      </p>
 
                       <button
-                        className="PlusButtonSize"
+                        className='PlusButtonSize'
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
                           incrementMintAmount();
-                        }}
-                      >
+                        }}>
                         +
                       </button>
                     </div>
 
                     <button
-                      id="mintaBtn"
-                      className="mintBtn"
+                      id='mintaBtn'
+                      className='mintBtn'
                       disabled={claimingNft ? 1 : 0}
                       onClick={(e) => {
                         e.preventDefault();
                         claimNFTs();
                         getData();
-                      }}
-                    >
+                      }}>
                       {claimingNft ? 'MINTING...' : 'MINT'}
                     </button>
                   </div>
