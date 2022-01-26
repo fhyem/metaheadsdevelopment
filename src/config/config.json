@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
+  "SCAN_LINK": "https://kovan.etherscan.io/address/0x427a45F0507a430C4d9e9768e38c4FEBA9AC2B04",
+  "NETWORK": {
+    "NAME": "Kovan Test Network",
+    "SYMBOL": "FTM",
+    "ID": 42
+  },
+  "NFT_NAME": "Florence.gg Tickets",
+  "SYMBOL": "Flappy Bird",
+  "MAX_SUPPLY": 3200,
+  "WEI_COST": 1000000000000000,
+  "DISPLAY_COST": 10,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "OpenSea",
+  "MARKETPLACE_LINK": "https://opensea.io",
+  "SHOW_BACKGROUND": true
+}

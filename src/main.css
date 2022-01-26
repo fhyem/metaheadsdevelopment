@@ -1,0 +1,170 @@
+@import url("https://fonts.cdnfonts.com/css/modern-typewriter");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Modern Typewriter", sans-serif;
+  
+}
+.background{
+  margin: 0px;
+  padding: 0px;
+}
+.parrent{
+  width: 100%;
+  height: auto;
+  overflow: scroll;
+  
+}
+
+.heading {
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.heading span {
+  background-color: rgb(255, 255, 255);
+}
+
+.FirstPara {
+  text-align: center;
+}
+
+.FirstPara span {
+  background-color: white;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons ul {
+  list-style: none;
+  display: inline-flex;
+}
+.icons ul li {
+  margin: 0px 11px;
+  width: 20px;
+}
+.icons ul li img{
+  width: 20px;
+}
+
+.InnerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    column-gap: 21px;
+   
+  
+}
+
+.innerContainerpara1 {
+  margin: 0px 30px;
+  display: flex;
+  text-align: justify;
+}
+.innerContainerpara1 span{
+ background-color: white;
+}
+
+.gifBody{
+  text-align: center;
+}
+
+.gifBody img {
+  width: 300px;
+  height: 300px;
+  
+}
+.InnerContainerlastPara {
+  margin: 0px 30px;
+  display: flex;
+  text-align: justify;
+}
+.InnerContainerlastPara span{
+  background-color: white;
+}
+.lastPara {
+}
+
+
+.connectButton{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ;
+
+}
+.ConnectBtn{
+  width: 277px;
+    height: 33px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+.abc{
+     display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.counterBtn{
+display: flex;
+}
+.minusButtonSize{
+  width: 32px;
+    height: 23px;
+    margin-top: 11px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 18;;
+
+
+}
+.PlusButtonSize{
+  width: 34px;
+  height: 23px;
+  margin-top: 11px;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+}
+.NumbersField{
+  width: 56px;
+  text-align: center;
+}
+.NumbersField span{
+background-color: white;
+}
+.costClass{
+  text-align: center;
+}
+.mintBtn{
+  width: 120px;
+  height: 34px;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+@media only screen and (min-width: 700px) {
+  .InnerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 25px;
+  flex-direction: row;
+  }
+  .innerContainerpara1 {
+    text-align: justify;
+  }
+
+  .parrent{
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    
+  }
+}
