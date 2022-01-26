@@ -1,9 +1,6 @@
 import React from 'react';
 
 import logo from '../images/logo.png';
-import discord from '../images/discord.png';
-import insta from '../images/insta.png';
-import twitter from '../images/twitter.png';
 import { Link } from 'react-scroll';
 
 import backgroundImg from '../images/background.png';
@@ -12,7 +9,7 @@ import nftGif from '../images/nftGif.gif';
 import '../main.css'
 import instagram from '../images/insta.png'
 import twitter from '../images/twitter.png'
-import discord from '../images/Discord-Logo.png'
+import discord from '../images/discord.png'
 // import Minting from './minting';
 class Home extends React.Component {
   state = {};
@@ -51,7 +48,7 @@ class Home extends React.Component {
             <ul>
               <li>
                 <a href='#' target='_blank'>
-                  <img src={insta} />
+                  <img src={instagram} />
                 </a>
               </li>
               <li>
@@ -74,7 +71,6 @@ class Home extends React.Component {
               backgroundImage: `url(${backgroundImg})`,
             }}>
             {/* <img src={background} /> */}
-            <p>Lorem ipsum dolor sit amet</p>
           </div>
           <div
             className='content-intro'
@@ -107,7 +103,6 @@ class Home extends React.Component {
             <p>FAQs</p>
           </div>
         </div>
-        <div className='content'>Content</div>
         <div className='footer'>
           <div className='footer-left'>
             <span className='footer-heading'>Metahead &copy; 2022 </span>
