@@ -16,7 +16,7 @@ module.exports = {
       { test: /\.js$/, use: 'babel-loader' },
       { test: /\.css$/, loader: 'ignore-loader' },
       {
-        test: /\.(png|jpg|gif|xml|jpeg)$/,
+        test: /\.(png|jpg|gif|GIF|xml|jpeg)$/,
         use: [
           {
             loader: 'file-loader',
