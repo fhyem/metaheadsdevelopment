@@ -2,14 +2,12 @@ import React from 'react';
 
 import logo from '../images/logo.png';
 import { Link } from 'react-scroll';
-
 import backgroundImg from '../images/background.png';
-import heading from '../images/heading.png';
 import nftGif from '../images/nftGif.gif';
-import '../main.css'
-import instagram from '../images/insta.png'
-import twitter from '../images/twitter.png'
-import discord from '../images/discord.png'
+import '../main.css';
+import instagram from '../images/insta.png';
+import twitter from '../images/twitter.png';
+import discord from '../images/discord.png';
 // import Minting from './minting';
 class Home extends React.Component {
   state = {};
@@ -28,8 +26,8 @@ class Home extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to='mint' spy={true} smooth={true}>
-                  MINT
+                <Link to='about' spy={true} smooth={true}>
+                  About
                 </Link>
               </li>
               <li>
@@ -74,6 +72,7 @@ class Home extends React.Component {
           </div>
           <div
             className='content-intro'
+            id='about'
             style={{
               backgroundColor: '#2d4762',
             }}>
@@ -82,7 +81,7 @@ class Home extends React.Component {
                 Don't blame this little blazemaker
               </h4>
               <div className='content-div-heading'>
-                <img className='left-div-heading-image' src={heading} />
+                <img className='left-div-heading-image' src={logo} />
               </div>
               <h5 className='left-div-info'>
                 A rebellious imp who has the ability to shapeshift and the
@@ -113,8 +112,75 @@ class Home extends React.Component {
           </div>
            
           </div>
-          <div className='content-faq'>
-            <p>FAQs</p>
+          <div className='content-faq' id='faq'>
+            <div className='faq-heading'>
+              <h1>FAQs</h1>
+            </div>
+            <div className='faq-content'>
+              <p>Q:How do i mint Metahead?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:How many Metaheads are there in the collection?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:When does presale for Whitelisted users start?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:When does public sale start?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:What will be the mint price?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:What will be the mint price for Whitelisted users?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:How many Metaheads can i mint from one wallet?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+
+              <p>Q:After the mint is over, where can i buy/sell a Metahead?</p>
+              <p>
+                A:Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Rerum facere dignissimos praesentium impedit a dolore inventore
+                voluptatibus distinctio id quasi molestiae fuga in dicta, eaque
+                itaque eligendi animi voluptas vitae?
+              </p>
+            </div>
           </div>
         </div>
         <div className='footer'>
@@ -122,9 +188,15 @@ class Home extends React.Component {
             <span className='footer-heading'>Metahead &copy; 2022 </span>
           </div>
           <div className='footer-right'>
-            <a><img src={instagram}/></a>
-            <a><img src={twitter}/></a>
-            <a><img src={discord}/></a>
+            <a>
+              <img src={instagram} />
+            </a>
+            <a>
+              <img src={twitter} />
+            </a>
+            <a>
+              <img src={discord} />
+            </a>
           </div>
         </div>
       </div>
