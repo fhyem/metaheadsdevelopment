@@ -3,6 +3,10 @@ import React from 'react';
 import backgroundImg from '../images/background.png';
 import heading from '../images/heading.png';
 import nftGif from '../images/nftGif.gif';
+import '../main.css'
+import instagram from '../images/insta.png'
+import twitter from '../images/twitter.png'
+import discord from '../images/Discord-Logo.png'
 // import Minting from './minting';
 class Home extends React.Component {
   state = {};
@@ -51,6 +55,17 @@ class Home extends React.Component {
           </div>
         </div>
         <div className='footer'>Footer</div>
+        <div className='content'>Content</div>
+        <div className='footer'>
+          <div className='footer-left'>
+            <span className='footer-heading'>Metahead &copy; 2022 </span>
+          </div>
+          <div className='footer-right'>
+            <a><img src={instagram}/></a>
+            <a><img src={twitter}/></a>
+            <a><img src={discord}/></a>
+          </div>
+        </div>
       </div>
     );
   }

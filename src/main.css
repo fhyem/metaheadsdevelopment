@@ -6,6 +6,38 @@ body {
   box-sizing: border-box;
 }
 
+ /**
+MetaHead footer
+*/
+.footer {
+  display: flex;
+  background: #242E40;
+  justify-content: space-between;
+  border-top: 1px solid #505761;
+  align-items: center;
+  height: 4em;
+  width: 100%;
+}
+
+.footer-left {
+  padding-left: 1em;
+}
+
+.footer-heading{
+  color: #CDD0CD;
+}
+
+.footer-right {
+  display: flex;
+  grid-column-gap: 14px;
+  padding-right: 1em;
+  align-items: center;
+}
+
+.footer-right a img {
+  width: 2em;
+}
+
 @media only screen and (min-width: 700px) {
   /* Content first screen css */
   .content-first-page {
