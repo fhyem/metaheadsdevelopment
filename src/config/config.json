@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "",
-  "SCAN_LINK": "https://testnet.ftmscan.com/address/0xc457d0e885a878f2f8ae4b2ad9d850db046ce818",
+  "CONTRACT_ADDRESS": "0x9c5C0E7Ec4B2d727f5c431cdbC2C28aDDfAD5Bdd",
+  "SCAN_LINK": "https://testnet.ftmscan.com/address/0x9c5c0e7ec4b2d727f5c431cdbc2c28addfad5bdd",
   "NETWORK": {
     "NAME": "Fantom Testnet",
     "SYMBOL": "FTM",
     "ID": 4002
   },
-  "NFT_NAME": "METAHEADS",
-  "SYMBOL": "Metaheads",
+  "NFT_NAME": "Meta Heads ",
+  "SYMBOL": "MetaHead",
   "MAX_SUPPLY": 8888,
   "WEI_COST": 1000000000000000,
   "DISPLAY_COST": 10,
   "GAS_LIMIT": 285000,
-  "MARKETPLACE": "Koyodo",
-  "MARKETPLACE_LINK": "https://opensea.io",
+  "MARKETPLACE": "Paint Swap",
+  "MARKETPLACE_LINK": "https://https://paintswap.finance/.io",
   "SHOW_BACKGROUND": true
 }
