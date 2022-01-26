@@ -3,7 +3,7 @@ import React from 'react';
 import logo from '../images/logo.png';
 import { Link } from 'react-scroll';
 import backgroundImg from '../images/background.png';
-import nftGif from '../images/nftGif.gif';
+import nftGif from '../images/nftGif.GIF';
 import '../main.css';
 import instagram from '../images/insta.png';
 import twitter from '../images/twitter.png';
